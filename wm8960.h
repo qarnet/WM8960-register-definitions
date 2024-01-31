@@ -1,10 +1,8 @@
-#ifndef ZEPHYR_DRIVERS_SENSOR_WM8960_WM8960_H_
-#define ZEPHYR_DRIVERS_SENSOR_WM8960_WM8960_H_
+#ifndef REG_WM8960_WM8960_H_
+#define REG_WM8960_WM8960_H_
 
-#include <zephyr/types.h>
-#include <zephyr/device.h>
-#include <zephyr/devicetree.h>
-#include <zephyr/drivers/i2c.h>
+#ifndef BIT
+#define BIT(nr)                 (1 << (nr))
 
 /* Register definitions */
 
