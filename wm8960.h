@@ -356,4 +356,4 @@
 #define WM8960_R55_RESERVED8 BIT(8)
 #define WM8960_R55_PLLK_7_0(x) (((x) & 0b11111111) << 0)
 
-#endif /* ZEPHYR_DRIVERS_SENSOR_WM8960_WM8960_H_ */
+#endif
